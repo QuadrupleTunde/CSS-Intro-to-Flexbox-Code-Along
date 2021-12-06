@@ -1,3 +1,30 @@
-nav {
+/* nav {
   display: none;
+} */
+
+img{
+  width: 150px;
+  height: 100px;
+}
+
+/* *{
+  border: 1px solid teal;
+} */
+
+.flex-basics{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.container{
+  display: flex;
+  justify-content: space-around;
+}
+
+aside{
+  min-width: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
